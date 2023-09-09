@@ -1,1 +1,29 @@
-﻿
+﻿  Building Custom Rule C:/projects/Vulkan/base/CMakeLists.txt
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  VulkanAndroid.cpp
+  VulkanBuffer.cpp
+  VulkanDebug.cpp
+  VulkanDevice.cpp
+  VulkanRaytracingSample.cpp
+  VulkanSwapChain.cpp
+  VulkanTexture.cpp
+  VulkanTools.cpp
+  VulkanUIOverlay.cpp
+  VulkanglTFModel.cpp
+  vulkanexamplebase.cpp
+  Generating Code...
+  texture.c
+C:\projects\Vulkan\external\ktx\lib\texture.c(31,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\projects\Vulkan\external\ktx\lib\texture.c(31,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+C:\projects\Vulkan\external\ktx\lib\gl_format.h(100,1): warning C4005: 'NOMINMAX': macro redefinition
+C:\projects\Vulkan\external\ktx\lib\gl_format.h(100,1): message : 'NOMINMAX' previously declared on the command line
+  hashlist.c
+  checkheader.c
+  swap.c
+  memstream.c
+  filestream.c
+  Generating Code...
+  base.vcxproj -> C:\projects\Vulkan\base\Debug\base.lib
