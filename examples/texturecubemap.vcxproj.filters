@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\projects\Vulkan\examples\texturecubemap\texturecubemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\projects\Vulkan\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\projects\Vulkan\shaders\glsl\texturecubemap\reflect.frag">
+      <Filter>Shaders\GLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\glsl\texturecubemap\reflect.vert">
+      <Filter>Shaders\GLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\glsl\texturecubemap\skybox.frag">
+      <Filter>Shaders\GLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\glsl\texturecubemap\skybox.vert">
+      <Filter>Shaders\GLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\hlsl\texturecubemap\reflect.frag">
+      <Filter>Shaders\HLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\hlsl\texturecubemap\reflect.vert">
+      <Filter>Shaders\HLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\hlsl\texturecubemap\skybox.frag">
+      <Filter>Shaders\HLSL</Filter>
+    </None>
+    <None Include="C:\projects\Vulkan\shaders\hlsl\texturecubemap\skybox.vert">
+      <Filter>Shaders\HLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{C8AA8C68-2D57-37ED-8B3C-6979F2E1FCAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GLSL">
+      <UniqueIdentifier>{AB819B48-1FDD-35E6-B894-7C2DEC68BFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\HLSL">
+      <UniqueIdentifier>{F10DEBB2-B8B4-3E70-95A4-1697D2ACF2C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{07A7D972-163A-3D1F-BDCD-1B9A1ABC85AB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

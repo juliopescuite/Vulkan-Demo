@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "base", "base\base.vcxproj", "{8943596C-E159-3411-AC10-EC70C6C091BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texturecubemap", "examples\texturecubemap.vcxproj", "{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8943596C-E159-3411-AC10-EC70C6C091BF} = {8943596C-E159-3411-AC10-EC70C6C091BF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.Debug|x64.ActiveCfg = Debug|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.Debug|x64.Build.0 = Debug|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.Release|x64.ActiveCfg = Release|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.Release|x64.Build.0 = Release|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{8943596C-E159-3411-AC10-EC70C6C091BF}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.Debug|x64.ActiveCfg = Debug|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.Debug|x64.Build.0 = Debug|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.Release|x64.ActiveCfg = Release|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.Release|x64.Build.0 = Release|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{B7ABAB1D-E068-3CB8-9FBE-237A4153ED59}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7F2715F-C629-3055-B205-0B1FBAEFFC1B}
+	EndGlobalSection
+EndGlobal
